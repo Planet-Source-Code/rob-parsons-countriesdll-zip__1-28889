@@ -1,0 +1,76 @@
+[Root]
+Most Recent Package=Countries.dll Setup
+
+
+[Package|Countries.dll Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\DevStudio5\VB\Projects\Countries.dll\Setup
+
+[Package|Countries.dll Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Countries.dll Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Countries.dll Setup|Files Found]
+
+[Package|Countries.dll Setup|Files Released]
+
+[Package|Countries.dll Setup|Missing Dependency Information]
+
+[Package|Countries.dll Setup|Out-of-Date Dependency Information]
+
+[Package|Countries.dll Setup|Files Added]
+
+[Package|Countries.dll Setup|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Countries.dll Setup|Files In Project]
+C:\Program Files\DevStudio5\VB\Projects\Countries.dll\Countries.dll=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=No
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=No
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=No
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=No
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Countries.dll Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Countries.dll Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Countries.dll Setup|Install Locations]
+C:\Program Files\DevStudio5\VB\Projects\Countries.dll\Countries.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Countries.dll Setup|Configure Shared Files]
+Applicable=No
+
+[Package|Countries.dll Setup|Distribution]
+Type=single
+Size=
+Title=COM Countries.dll
+
+[Package|Countries.dll Setup|Package]
+PackageFolder=C:\Program Files\DevStudio5\VB\Projects\Countries.dll\Setup
+ProjectFolder=C:\Program Files\DevStudio5\VB\Projects\Countries.dll
+ServerSideCab=
+File1=C:\Program Files\DevStudio5\VB\Projects\Countries.dll\Setup\setup.exe
+File2=C:\Program Files\DevStudio5\VB\Projects\Countries.dll\Setup\Setup.Lst
+File3=C:\Program Files\DevStudio5\VB\Projects\Countries.dll\Setup\Countries.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
